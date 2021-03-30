@@ -1,0 +1,7 @@
+{"tokens" : {"id": 1, 'title': "Diphenhydramine hydrochloride helps symptoms", 'date': "01/01/2019",'journal': "Journal of emergency nursing"}, "drug": "DIPHENHYDRAMINE", "atccode": "A04AD" }
+{"tokens" : {"id": 2, 'title': "Appositional Tetracycline bone formation rates", 'date': "01/01/2019",'journal': "Journal of emergency nursing"}, "drug": "TETRACYCLINE", "atccode": "S03AA"  }
+{"tokens" : {}, "drug": "ETHANOL", "atccode": "V03AB" }
+{"tokens" : {}, "drug": "ATROPINE", "atccode": "A03BA"}
+{"tokens" : {}, "drug": "EPINEPHRINE", "atccode": "A01AD"}
+{"tokens" : {}, "drug": "ISOPRENALINE", "atccode": "6302001"}
+{"tokens" : {}, "drug": "BETAMETHASONE", "atccode": "R01AD"}
