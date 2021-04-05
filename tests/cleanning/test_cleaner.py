@@ -1,14 +1,18 @@
 from datetime import datetime
 
-from servier_data.session.spark_session import Session
 from servier_data.cleaning.cleaner import clean_dataset
+from servier_data.session.spark_session import Session
 
 
 class TestCleaner(object):
     """
     Class to test clean data set method
     """
-    def test_drop_nuull_values_only(self):
+
+    def test_drop_null_values_only(self):
+        """ Filter row if one of column is Null
+
+        """
         source_data = [(1, "title 1", "01/04/2020", "journal 1"),
                        (2, "title 2", "03/05/2021", None),
                        (3, "title 3", None, "journal 1"),
@@ -29,7 +33,9 @@ class TestCleaner(object):
         )
         assert (expected_df.collect() == actual_df.collect())
 
-    def test_drop_nuull_and_format_date(self):
+    def test_drop_null_and_format_date(self):
+        """ Filter row if one of column is Null and format date
+        """
         source_data = [(1, "title 1", "01/04/2020", "journal 1"),
                        (2, "title 2", "03/05/2021", None),
                        (3, "title 3", "10 July 2018", "journal 1"),

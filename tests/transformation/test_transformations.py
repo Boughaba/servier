@@ -40,6 +40,8 @@ class TestTransformations(object):
         assert (expected_df.collect() == actual_df.collect())
 
     def test_make_join_column(self):
+        """ Build join column by split title column
+        """
         source_data = [
             (1,
              "Diphenhydramine hydrochloride helps symptoms",

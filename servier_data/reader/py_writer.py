@@ -13,7 +13,7 @@ def write_csv(df, path: str, header: bool = True, delimiter: str = ",", file_num
 
 
 def write_json(df, path: str, file_numbers: int = 1):
-    """Write dataframein json format
+    """Write dataframe in json format
 
     :param df: dataframe
     :param path: path to write in
