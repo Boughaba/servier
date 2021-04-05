@@ -26,9 +26,14 @@ Simply run `tox` command from root directory:
 poetry build
 ```
 
-### run example
+### run drug linker
 ```
 python main.py  --drug-path data/drugs.csv --clinical-trials-path data/clinical_trials.csv --pubmed-path data/pubmed.csv  --output-path out/merge2/
+```
+
+### run dad-hoc query
+```
+python query_main.py
 ```
 ## Improvements
 * Add more tests
